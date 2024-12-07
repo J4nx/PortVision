@@ -1,0 +1,25 @@
+# YOLOv5 Hyperparameters
+
+# Augmentation Hyperparameters
+degrees: 10.0  # Rotation (+/- degrees)
+translate: 0.1  # Translation (+/- fraction)
+scale: 0.5  # Scale (+/- gain)
+shear: 2.0  # Shear (+/- degrees)
+perspective: 0.0  # Perspective (+/- fraction), 0-0.001
+hsv_h: 0.015  # Hue
+hsv_s: 0.7  # Saturation
+hsv_v: 0.4  # Value (brightness)
+flipud: 0.0  # Vertical flip (probability)
+fliplr: 0.5  # Horizontal flip (probability)
+mosaic: 1.0  # Mosaic augmentation (probability)
+mixup: 0.2  # MixUp augmentation (probability)
+
+# Regularization
+cls: 1.0  # Class confidence loss gain
+kobj: 1.0  # Objectness confidence loss gain
+
+# Optimization Hyperparameters
+optimizer: 'SGD'  # Optimizer type ('SGD' or 'Adam')
+lr0: 0.01  # Initial learning rate
+momentum: 0.937  # SGD momentum/Adam beta1
+weight_decay: 0.0005  # Weight decay (L2 regularization)

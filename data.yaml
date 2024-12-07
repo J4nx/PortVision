@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Cable', 'Lan port', 'Lan port stack', 'Switch']
+
+roboflow:
+  workspace: solutions-in-pattern-recognition-ob44s
+  project: port-vision
+  version: 38
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/solutions-in-pattern-recognition-ob44s/port-vision/dataset/38
