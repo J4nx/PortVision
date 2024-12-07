@@ -11,7 +11,7 @@ def predict(image):
     print(f"Device: {device}")
 
     # Load the YOLO model
-    model = YOLO(r'runs\train\port_vision34\weights\best.pt').to(device)
+    model = YOLO(r'best.pt').to(device)
 
     # Convert Gradio numpy image to PIL Image
     image = Image.fromarray(image)
