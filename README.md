@@ -24,7 +24,7 @@ By addressing the inefficiencies of manual documentation, PortVision provides a 
 ### Clone the Repository:
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/J4nx/PortVision.git
 cd PortVision
 ```
 
@@ -56,10 +56,10 @@ Results will be saved in the runs/train/port_vision directory.
 
 ### 2. Use app with gradio interface
 Place image in the input of gradio interface gui.
-Run the detection script:
+Run the app.py script:
 
 ```bash
-python detect.py
+python app.py
 ```
 
 Output:
